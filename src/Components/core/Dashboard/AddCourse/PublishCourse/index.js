@@ -13,27 +13,29 @@ export default function PublishCourse() {
 
   const dispatch = useDispatch()
   const navigate = useNavigate()
-  const { token } = useSelector((state) => state.auth)
-  const { course } = useSelector((state) => state.course)
+  const { token } = useSelector((state) => state.auth);
+  const { course } = useSelector((state) => state.course);
+  
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     if (course?.status === COURSE_STATUS.PUBLISHED) {
-      setValue("public", true)
+      setValue("public", true);
     }
-  }, [])
+  }, []);
 
   const goBack = () => {
     dispatch(setStep(2))
   }
 
   const goToCourses = () => {
-    dispatch(resetCourseState())
+    dispatch(resetCourseState());
     navigate("/dashboard/my-courses")
   }
 
   const handleCoursePublish = async () => {
     // check if form has been updated or not
+    
     if (
       (course?.status === COURSE_STATUS.PUBLISHED &&
         getValues("public") === true) ||
@@ -41,6 +43,7 @@ export default function PublishCourse() {
     ) {
       // form has not been updated
       // no need to make api call
+
       goToCourses()
       return
     }
@@ -59,7 +62,6 @@ export default function PublishCourse() {
   }
 
   const onSubmit = (data) => {
-    // console.log(data)
     handleCoursePublish()
   }
 
