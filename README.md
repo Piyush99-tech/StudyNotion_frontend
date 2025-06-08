@@ -1,31 +1,73 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion Frontend 🚀
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+:contentReference[oaicite:1]{index=1}
 
-## Usage
+## 🔎 Table of Contents
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+- :contentReference[oaicite:2]{index=2}  
+- :contentReference[oaicite:3]{index=3}  
+- [Features](#features)  
+- :contentReference[oaicite:4]{index=4}  
+- :contentReference[oaicite:5]{index=5}  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - :contentReference[oaicite:6]{index=6}  
+  - :contentReference[oaicite:7]{index=7}  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+---
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## 🌟 About the Project
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+:contentReference[oaicite:8]{index=8}
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+- :contentReference[oaicite:9]{index=9}  
+- :contentReference[oaicite:10]{index=10}  
+- **Database**: MongoDB  
 
-## Contributing
+:contentReference[oaicite:11]{index=11}
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+---
+
+## 🛠️ Tech Stack
+
+- :contentReference[oaicite:12]{index=12}  
+- :contentReference[oaicite:13]{index=13}  
+- :contentReference[oaicite:14]{index=14}  
+- :contentReference[oaicite:15]{index=15}  
+- :contentReference[oaicite:16]{index=16}  
+- :contentReference[oaicite:17]{index=17}  
+- **MongoDB** *(database)*
+
+---
+
+## ✅ Features
+
+- :contentReference[oaicite:18]{index=18}  
+- :contentReference[oaicite:19]{index=19}  
+- :contentReference[oaicite:20]{index=20}  
+- :contentReference[oaicite:21]{index=21}  
+- :contentReference[oaicite:22]{index=22}  
+
+---
+
+## 🌐 Live Demo
+
+:contentReference[oaicite:23]{index=23}  
+:contentReference[oaicite:24]{index=24}
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+:contentReference[oaicite:25]{index=25}
+
+```bash
+node -v
+npm -v
