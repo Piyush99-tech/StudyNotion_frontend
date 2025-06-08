@@ -1,8 +1,9 @@
-import { useState } from "react"
-import { Chart, registerables } from "chart.js"
-import { Pie } from "react-chartjs-2"
+import React, { useState } from 'react'
 
-Chart.register(...registerables)
+import {Chart, registerables} from "chart.js"
+import {Pie} from "react-chartjs-2"
+
+Chart.register(...registerables);
 
 export default function InstructorChart({ courses }) {
   // State to keep track of the currently selected chart
@@ -74,7 +75,7 @@ export default function InstructorChart({ courses }) {
           Income
         </button>
       </div>
-      <div className="relative mx-auto aspect-square h-full w-full">
+      <div className="relative mx-auto aspect-square h-[320px] w-full">
         {/* Render the Pie chart based on the selected chart */}
         <Pie
           data={currChart === "students" ? chartDataStudents : chartIncomeData}
